@@ -1,6 +1,10 @@
-#!perl -T
+#!/usr/bin/perl
 
-use Test::More tests => 1;
+use strict;
+use warnings;
+
+use Test::More tests => 1 + 1;
+use Test::NoWarnings;
 
 BEGIN {
     use_ok( 'App::ProjMan' );
